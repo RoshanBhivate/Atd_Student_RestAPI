@@ -1,0 +1,16 @@
+
+server:
+  port: 8081
+spring:
+
+  datasource:
+    password: Roshan@123
+    url: jdbc:mysql://localhost:3306/sakila
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+    
+   
